@@ -1,6 +1,11 @@
 # BOSS
 Building Operation Smart System
-
+BIM 7D software fro Facility Management 
+1. Facility Management
+2. Monitoring building behavior
+3. Maintenace 
+4. Bulding easy control
+5. Energy Saving 
 
 ## Δ.By
 
