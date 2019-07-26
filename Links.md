@@ -5,6 +5,7 @@ thanks you to all of you
 ### UI
 * `Radial menu` [wheelnavjs](http://wheelnavjs.softwaretailoring.net/examples.html)
 * `Radial menu` [TweenMax](https://www.jqueryscript.net/demo/SVG-Radial-Menu-TweenMax/)
+* `Project Browser` [FoamTree](https://get.carrotsearch.com/foamtree/demo/demos/scrolling.html)
 
 * `Color list picker` [benknight](https://codepen.io/benknight/pen/nADpy)
 
