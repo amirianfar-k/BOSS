@@ -21,20 +21,38 @@ BIM 7D software fro Facility Management
 |Id	  			| `Δ.By.Id(param)`   		| Gets elements with specific Ids    	| `677763`|
 |TypeId	  		| `Δ.By.TypeId(param)`   	| Gets elements with specific type Ids   	|`687764`|
 |GUID	  		| `Δ.By.GUID(param)`   		| Gets elements with specific GUIDs     	|`1Fi$QD3af91OzrSrmvLvXA`|
-|Mark	  		| `Δ.By.Mark(param)`   		| Gets elements with specific Type GUIDs   	|`1Fi$QD3af91OzrSrmvLuqy`|
+|Mark	  		| `Δ.By.Mark(param)`   		| Gets elements with specific marks   	|`AL-D009`|
+|AssemblyName	  		| `Δ.By.AssemblyName(param)`   		| Gets elements with specific assembly names  	|`Door Frame 02`|
+|Comments	  		| `Δ.By.Mark(param)`   		| Gets elements with specific comments   	|`mut be check by supervisory`|
+|PhaseCreated	  		| `Δ.By.PhaseCreated(param)`   		| Gets elements with specific PhaseCreated names   	|`Existrings`|
+|PhaseDemolished	  		| `Δ.By.PhaseDemolished(param)`   		| Gets elements with specific PhaseDemolished names   	|`Demolished`|
+|DesignOption	  		| `Δ.By.DesignOption(param)`   		| Gets elements with specific DesignOption names   	|`Silver Lobby`|
+|System	  		| `Δ.By.Sytem(param)`   		| Gets elements with specific MEP system names   	|`Fancoil`|
+|Quantities	  		| `Δ.By.Quantities(param)`   		| Gets elements with specific quantities values   	|`{Area:20m,Length:2m}`|
+|Space	  		| `Δ.By.Space(param)`   		| Gets elements with specific space properties or names  	|`Corridor`|
+
 
 #### Δ.By.Type
 
 |`Name`	| `Command` 					| `Description`                  	|`sample input`    	|
 |---------------| --------------------------| -----------------------------	|----------------------------	|
 |Type 	  	| `Δ.By.Type(param)`    		| Gets all building elements by given type name 	|`Basic Walls`,`Curtain Walls`|
-|Name	  		| `Δ.By.Type.Name(param)`   	| Gets all building elements by given type name   	| `2 m`		|
+|Name	  		| `Δ.By.Type.Name(param)`   	| Gets all building elements by given type name   	| `Basic Walls`,`Curtain Walls`	|
+|Family	  		| `Δ.By.Type.Family(param)`   	| Gets specific element families   		| `30cm Concrete`|
+|Category	  	| `Δ.By.Type.Category(param)`   	| Gets specific element categories   	| `Windows,Doors`	|
 |TypeMark	  		| `Δ.By.Type.TypeMark(param)`   		| Gets specific element by given type marks   		| `AW101`	|
 |TypeGUID	  		| `Δ.By.Type.TypeGUID(param)`   	| Gets all element with specific  type GUIDs   		| `1Fi$QD3af91OzrSrmvLvXA`|
 |TypeId	  		| `Δ.By.Type.TypeId(param)`   		| Gets elements with specific type Ids    	| `3453553`|
-|OmniClass	  	| `Δ.By.Type.OmniClass(param)` 		| Gets elements with specific omni classes    	| `20.32.45.11`|
-|Category	  	| `Δ.By.Type.Category(param)`   	| Gets specific element categories   	| `Windows,Doors`	|
-|Family	  		| `Δ.By.Type.Family(param)`   	| Gets specific element families   		| `30cm Concrete`|
+|TypeComments	  	| `Δ.By.Type.TypeComments(param)` 		| Gets elements with specific type comments    	| `ready to install`|
+|OmniClass	  	| `Δ.By.Type.OmniClass(param)` 		| Gets elements with specific OmniClass numbers    	| `20.32.45.11`|
+|OmniClassName	  	| `Δ.By.Type.OmniClassName(param)` 		| Gets elements with specific OmniClass names| `Plumbing Fixtures & Equipments`|
+|Manufacturer	  	| `Δ.By.Type.Manufacturer(param)` 		| Gets elements with specific manufacturers    	| `Knauf`|
+|Model	  	| `Δ.By.Type.Model(param)` 		| Gets elements with specific models    	| `Cadenza`|
+|Cost	  	| `Δ.By.Type.Cost(param)` 		| Gets elements with specific cost    	| `250 $`|
+|Keynote	| `Δ.By.Type.Keynote(param)` 		| Gets elements with specific keynotes    	| `XKW124`|
+|URL	  	| `Δ.By.Type.URL(param)` 		| Gets elements with specific URLs    	| `www.IKEA.com/233`|
+|AssemblyCode	  	| `Δ.By.Type.AssemblyCode(param)` 		| Gets elements with specific AssemblyCodes    	| `459045095`|
+|Description	  	| `Δ.By.Type.Description(param)` 		| Gets elements with specific descriptions    	| `external wooden doors`|
 
 
 #### Δ.By.Quantity
@@ -72,7 +90,7 @@ BIM 7D software fro Facility Management
 
 |`Name`	| `Command` 					| `Description`                  	|`sample input`    	|
 |---------------| --------------------------| -----------------------------	|----------------------------	|
-|System 	  	| `Δ.System(param)`    		| Gets all building elements in given system names 	|`{Area:[20,30],Volume:[5,6]}`
-|Name	  		| `Δ.By.System.Name(param)`   	|  Gets all building elements in given system names  	| `2 m`			|
-|Type	  		| `Δ.By.System.Type(param)`   		|  Gets all building elements in given system types  		| `20 m2`	|
-|Classification	| `Δ.By.System.Classification(param)` | Gets all building elements in given system classifications   		| `20 m2`	|
+|System 	  	| `Δ.System(param)`    		| Gets all building elements in given system names 	|`{Name:"DCW"}`
+|Name	  		| `Δ.By.System.Name(param)`   	|  Gets all building elements in given system names  	| `DCW`			|
+|Type	  		| `Δ.By.System.Type(param)`   		|  Gets all building elements in given system types  		| `Domestic Cold Water`	|
+|Classification	| `Δ.By.System.Classification(param)` | Gets all building elements in given system classifications   		| `Domestic Water`	|
